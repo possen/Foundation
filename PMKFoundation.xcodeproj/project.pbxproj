@@ -61,6 +61,7 @@
 		63CCF8121D5C0C4E00503216 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		63CCF8131D5C0C4E00503216 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 		63CCF8171D5C11B500503216 /* Carthage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Carthage.xcconfig; sourceTree = "<group>"; };
+		DC036660243826300046F568 /* Foundation.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Foundation.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		63C7FF9D1D5BEE09003BAE60 = {
 			isa = PBXGroup;
 			children = (
+				DC036660243826300046F568 /* Foundation.xcconfig */,
 				63C700091D5C0253003BAE60 /* Info.plist */,
 				63CCF8121D5C0C4E00503216 /* Cartfile */,
 				63CCF8131D5C0C4E00503216 /* Cartfile.private */,
@@ -413,6 +415,7 @@
 		};
 		63C7FFB01D5BEE09003BAE60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC036660243826300046F568 /* Foundation.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -431,6 +434,7 @@
 		};
 		63C7FFB11D5BEE09003BAE60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC036660243826300046F568 /* Foundation.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -448,6 +452,7 @@
 		};
 		63C7FFFB1D5C020D003BAE60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63CCF8171D5C11B500503216 /* Carthage.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
